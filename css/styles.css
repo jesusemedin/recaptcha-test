@@ -1,0 +1,56 @@
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%; /*Reset para REMS - 62.5% = 10px de 16px*/
+}
+*,*:before,:after
+{
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(66, 133, 244);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+.header{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;=
+}
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 1.5rem 0px;
+    padding: 2.5rem;
+}
+.form-group{
+    padding: 2rem;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 1rem;
+}
+.form-group input{
+    width: 100%;
+    height: 3rem;
+    border-color: rgb(66, 133, 244);
+    border-style: solid;
+}
+.submit{
+    display: block;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 1px solid  rgb(66, 133, 244);
+    color: rgb(66, 133, 244);
+    padding: 1rem;
+
+    transition: .5s ease-in-out;
+}
+.submit:hover{
+    color: white;
+    background-color:  rgb(66, 133, 244);
+}
